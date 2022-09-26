@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Abubakar HI</title>
+    <link href="styles.css" rel="stylesheet" /> <!--link подтягивает файл CSS,
+                                                rel-указывает тип подключаемого файла -->
+</head>
+        <body>
+            <div class="container">
+                <div class="info"> <!-- создем класс info - он будес применятся ко всем элементам блока DIV-a куда он прописан-->
+                    <img src="Lar.gif" width="299" alt="Тут gif" class="avatar"/>
+
+                    <div class="info-text"> <!--Сделали 2 корневых элемента (Div и img), что бы в строку втали только изображение и текст, а не все элементы в блоке с классом info, при прописке display: flex; в CSS-е  */-->
+                        <h1>Хашиев А.И. ابو بكر</h1>
+                        <p> Я инженер в компании
+                        <Strong>МТС.</Strong></p>
+                        <p>Увлекаюсь спортом, люблю активный отдых и програмирование.</p> 
+
+                        <h4>Мои социальные сети</h4>
+
+                        <a href="https://instogram.com" target="_blank">
+                                instogram</a>
+                                |
+                        <a href="https://t.me" target="_blank">
+                                telegram</a>
+                                |
+                        <a href="https://VK.COM" target="_blank">
+                                VK</a>
+                    </div>
+            </div>
+            
+
+
+            <div class="card bg-yellow"> <!--можно прописывать два класса в одни ковычки (тут прописаны классы: card и bg-yellow) -->
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li>Програмирование</li>
+                    <li>Ремонт компьютеров</li>
+                    <li>Решение задач</li>
+                    <li>Страйкбол</li>
+                </ol>
+            </div>
+
+            <div class="card bg-green" > <!--можно прописывать два класса в одни ковычки (тут прописаны классы: card и bg-green) -->
+                <h2>Опыт работы</h2>    
+                <table class="table">                             
+                    <tr>
+                        <td>Konsultant+</td>
+                        <td>Engineer</td>
+                        <td>2016-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Belline</td>
+                        <td>Office Manager</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>TerraLink</td>
+                        <td>Engineer</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>MTS</td>
+                        <td>Senior Engineer</td>
+                        <td>2020-2022</td>
+                    </tr>         
+                </table>
+            </div>
+    
+            <div class="card bg-red"> <!--можно прописывать два класса в одни ковычки (тут прописаны классы: card и bg-red) -->
+                <h2>Курсы на Udeni</h2>                       
+                    <ul class="link-list">
+                        <li>
+                            <a href="https://www.udemy.com/" target="_blank">Udemy  - Онлайнк курсу програмирования для повышения квалификации                              
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/complete-python-bootcamp-russian/" target="_blank">Полный Курс Python 3: от Новичка до Мастера (Питон, Пайтон) </a>
+                        </li>
+                    </ul>
+            </div>
+    <hr>
+
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                    <form action="">
+                        <div class="row">
+                            <div class="form-group">                       
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" placeholder="Ведит ваше имя...">   
+                            </div>
+
+                            <div class="form-group">   
+                                <label for="email">Ваш email</label> 
+                                <input type="email" id="email" placeholder="Ведит email..." >
+                            </div>  
+                        </div>                      
+                    </form>
+
+
+                    <form action="/">   
+                        <div class="form-group">  
+                            <label for="text">Ваш сообщение</label>
+                            
+                            <textarea name="" id="text" cols="25" rows="3"></textarea>
+                        </div>
+                        <input type="checkbox"> Условиями пользования
+                        <br>
+                        <input class="btn" type="submit" value="Связаться!">     
+                    </form>                  
+            </div>             
+       
+
+
+                <div class="position">
+                    <div class="box"></div>
+                </div>
+
+
+
+        </div>
+
+        
+        <div style="margin-bottom: 500px;;"></div> <!--добавляем дополнительное пространство с низу, пустой блок со стилем в 500 px-->
+    </body>
+</html> 
